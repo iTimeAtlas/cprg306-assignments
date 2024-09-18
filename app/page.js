@@ -3,6 +3,8 @@
 
 import Link from "next/link";
 
+let linkStyle = "text-blue-400 hover:text-yellow-400"
+
 export default function Home() {
   return (
     <main>
@@ -13,8 +15,14 @@ export default function Home() {
         <li>Cherry</li>
         <li>Dragon Fruit</li>
       </ol>
-      <br></br>
-      <Link className="text-blue-400 hover:text-yellow-400" href="./week-2">Second Page</Link>
+      <ol>
+        <li>
+        <Link className="text-blue-400 hover:text-yellow-400" href="./week-2">Second Page</Link>
+        </li>
+        <li>
+        <Link className={linkStyle} href="./week-3">Third Page</Link>
+        </li>
+      </ol>
     </main>    
   );
 }
