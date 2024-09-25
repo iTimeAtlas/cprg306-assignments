@@ -1,5 +1,8 @@
 
-
+/*
+    Remember that the itemObj has to have {} 
+    because its an object of Javascript
+*/ 
 export default function Item({itemObj}){
 
     let {name, quantity, category} = itemObj;
