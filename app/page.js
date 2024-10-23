@@ -25,6 +25,15 @@ export default function Home() {
         <li>
         <Link className={linkStyle} href="./week-4">Fourth Page</Link>
         </li>
+        <li>
+        <Link className={linkStyle} href="./week-5">Fifth Page</Link>
+        </li>
+        <li>
+        <Link className={linkStyle} href="./week-6">Six Page</Link>
+        </li>
+        <li>
+        <Link className={linkStyle} href="./week-7">Seven Page</Link>
+        </li>
       </ol>
     </main>    
   );
