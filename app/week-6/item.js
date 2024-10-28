@@ -5,7 +5,7 @@
 */ 
 export default function Item({itemObj}){
 
-    let {name, quantity, category} = itemObj;
+    let {id ,name, quantity, category} = itemObj;
 
     let pStyle = "text-2x1";
 
